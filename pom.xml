@@ -8,7 +8,7 @@
     <groupId>com.cariochi.recordo</groupId>
     <artifactId>recordo-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.2.2</version>
+    <version>1.2.2-nested</version>
 
     <name>Recordo Parent</name>
     <description>Parent for Recordo JUnit extension modules.</description>
@@ -60,7 +60,7 @@
         <jsonassert.version>1.5.0</jsonassert.version>
         <slf4j-api.version>1.7.33</slf4j-api.version>
         <lombok.version>1.18.22</lombok.version>
-        <reflecto.version>1.0.1</reflecto.version>
+        <reflecto.version>1.1.1-enclosing</reflecto.version>
         <assertj.version>3.22.0</assertj.version>
         <commons-lang3.version>3.11</commons-lang3.version>
         <okhttp.version>4.9.3</okhttp.version>
@@ -81,7 +81,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.cariochi</groupId>
+                <groupId>com.cariochi.reflecto</groupId>
                 <artifactId>reflecto</artifactId>
                 <version>${reflecto.version}</version>
                 <exclusions>
